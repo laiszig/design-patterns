@@ -20,9 +20,8 @@ public class AccountOperations {
 
     /**
      * This method should not be part of AccountOperations
-     * AccountOperations is responsible for calling operations for the accounts
-     * such as add, update and get.
-     * Deposit is a transaction.
+     * It is responsible for calling operations for the accounts
+     * such as add, update and get. Deposit is a transaction.
      *
      * Adding this method violates the single responsibility principle.
      * Create a new class responsible for Transactions.
