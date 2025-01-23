@@ -22,3 +22,23 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Ignore IntelliJ IDEA project files
+.idea/
+
+# Ignore build output directory (common for IntelliJ IDEA)
+out/
+# Ignore IntelliJ IDEA module files
+*.iml
+# Ignore backup files
+*~
+# Ignore Gradle directories
+algorithms_lab/.gradle/
+# Ignore build directory (common for Gradle, Maven, etc.)
+build/
+
+.gradle
+gradle
+
+*.build/
+*/gradle/
