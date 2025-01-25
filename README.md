@@ -23,11 +23,11 @@ This repository contains all **23 GoF design patterns**, categorized as follows:
 
 These patterns focus on object creation mechanisms.
 
-1. [**Factory Method**](project-path/creational/factory-method)
-2. [**Abstract Factory**](project-path/creational/abstract-factory)
-3. [**Builder**](project-path/creational/builder)
-4. [**Prototype**](project-path/creational/prototype)
-5. [**Singleton**](project-path/creational/singleton)
+1. [**Factory Method**](tree/main/factory)
+2. [**Abstract Factory**](tree/main/abstract-factory)
+3. [**Builder**](tree/main/builder)
+4. [**Prototype**](tree/main/prototype)
+5. [**Singleton**](tree/main/singleton)
 
 ### ➕ 2. Structural Patterns
 
