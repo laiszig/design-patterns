@@ -23,39 +23,39 @@ This repository contains all **23 GoF design patterns**, categorized as follows:
 
 These patterns focus on object creation mechanisms.
 
-1. [**Factory Method**](tree/main/factory)
-2. [**Abstract Factory**](tree/main/abstract-factory)
-3. [**Builder**](tree/main/builder)
-4. [**Prototype**](tree/main/prototype)
-5. [**Singleton**](tree/main/singleton)
+1. [**Factory Method**](factory)
+2. [**Abstract Factory**](abstract-factory)
+3. [**Builder**](builder)
+4. [**Prototype**](prototype)
+5. [**Singleton**](singleton)
 
 ### ➕ 2. Structural Patterns
 
 These patterns deal with object composition and the organization of larger structures.
 
-6. [**Adapter**](project-path/structural/adapter)
-7. [**Bridge**](project-path/structural/bridge)
-8. [**Composite**](project-path/structural/composite)
-9. [**Decorator**](project-path/structural/decorator)
-10. [**Facade**](project-path/structural/facade)
-11. [**Flyweight**](project-path/structural/flyweight)
-12. [**Proxy**](project-path/structural/proxy)
+6. [**Adapter**](adapter)
+7. [**Bridge**](bridge)
+8. [**Composite**](composite)
+9. [**Decorator**](decorator)
+10. [**Facade**](facade)
+11. [**Flyweight**](flyweight)
+12. [**Proxy**](proxy)
 
 ### ➕ 3. Behavioral Patterns
 
 These patterns focus on how objects interact and communicate.
 
-13. [**Chain of Responsibility**](project-path/behavioral/chain-of-responsibility)
-14. [**Command**](project-path/behavioral/command)
-15. [**Interpreter**](project-path/behavioral/interpreter)
-16. [**Iterator**](project-path/behavioral/iterator)
-17. [**Mediator**](project-path/behavioral/mediator)
-18. [**Memento**](project-path/behavioral/memento)
-19. [**Observer**](project-path/behavioral/observer)
-20. [**State**](project-path/behavioral/state)
-21. [**Strategy**](project-path/behavioral/strategy)
-22. [**Template Method**](project-path/behavioral/template-method)
-23. [**Visitor**](project-path/behavioral/visitor)
+13. [**Chain of Responsibility**](chain-of-responsibility)
+14. [**Command**](command)
+15. [**Interpreter**](interpreter)
+16. [**Iterator**](iterator)
+17. [**Mediator**](mediator)
+18. [**Memento**](memento)
+19. [**Observer**](observer)
+20. [**State**](state)
+21. [**Strategy**](strategy)
+22. [**Template Method**](template-method)
+23. [**Visitor**](visitor)
 
 ---
 
@@ -69,7 +69,7 @@ These principles ensure clean, maintainable, and scalable code design.
 4. **I** - Interface Segregation Principle (ISP): Interfaces should be client-specific, not general-purpose.
 5. **D** - Dependency Inversion Principle (DIP): Depend on abstractions, not concretions.
 
-[**SOLID Principles**](https://github.com/laiszig/design-patterns/tree/main/solid-principles)
+[**SOLID Principles**](solid-principles)
 
 ---
 
@@ -84,4 +84,5 @@ Contributions are welcome! If you have suggestions, ideas, or improvements, feel
 - [Design Patterns Guide](https://laiszig.github.io/guide/#)
 - [Refactoring Guru](https://refactoring.guru/design-patterns)
 - [Design Patterns Master Class - Daily Code Buffer](https://www.youtube.com/watch?v=vap9ACtc_tU&ab_channel=DailyCodeBuffer)
+- [Design Patterns Playlist - Geekfic](https://www.youtube.com/playlist?list=PLlsmxlJgn1HJpa28yHzkBmUY-Ty71ZUGc)
 - [Java Documentation](https://docs.oracle.com/en/java/)
