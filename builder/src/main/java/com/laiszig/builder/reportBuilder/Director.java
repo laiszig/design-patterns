@@ -1,4 +1,4 @@
-package com.laiszig.builder.carBuilder;
+package com.laiszig.builder.reportBuilder;
 
 /**
  *  The director is only responsible for executing the building
@@ -17,19 +17,19 @@ public class Director {
      *  using the same building steps.
      * @param builder
      */
-    public void constructSportsCar(Builder builder) {
+    public void constructMonthlyReport(Builder builder) {
         builder.reset();
-        builder.setSeats(2);
-        builder.setEngine("SportEngine");
-        builder.setTripComputer(true);
-        builder.setGPS(true);
+        builder.setTitle("Monthly Sales Report");
+        builder.setHeader("Sales Performance - January");
+        builder.setContent("This month's performance showed a 5% increase in sales.");
+        builder.setFooter("Generated on: 29 January 2025");
     }
 
-    public void constructSUV(Builder builder) {
+    public void constructAnnualReport(Builder builder) {
         builder.reset();
-        builder.setSeats(5);
-        builder.setEngine("SUVEngine");
-        builder.setTripComputer(false);
-        builder.setGPS(true);
+        builder.setTitle("Annual Performance Report");
+        builder.setHeader("Annual Overview - 2025");
+        builder.setContent("The annual performance showed a 10% increase in overall sales.");
+        builder.setFooter("Generated on: 31 December 2025");
     }
 }

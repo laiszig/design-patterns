@@ -1,4 +1,4 @@
-package com.laiszig.builder.carBuilder;
+package com.laiszig.builder.reportBuilder;
 
 /**
  *  The concrete builder classes follow the builder interface and
@@ -6,40 +6,40 @@ package com.laiszig.builder.carBuilder;
  *  program may have several variations of builders, each
  *  implemented differently.
  */
-public class CarBuilder implements Builder {
+public class ReportBuilder implements Builder {
 
-    private Car car;
+    private Report report;
 
     // A fresh builder instance should contain a blank product
     // object which it uses in further assembly.
-    public CarBuilder() {
+    public ReportBuilder() {
         this.reset();
     }
 
     @Override
     // The reset method clears the object being built.
     public void reset() {
-        this.car = new Car();
+        this.report = new Report();
     }
 
     @Override
-    public void setSeats(int number) {
-        // Set the number of seats in the car.
+    public void setTitle(String title) {
+        this.report.setTitle(title);
     }
 
     @Override
-    public void setEngine(String engine) {
-        // Install a given engine.
+    public void setHeader(String header) {
+        this.report.setHeader(header);
     }
 
     @Override
-    public void setTripComputer(boolean hasTripComputer) {
-        // Install a trip computer.
+    public void setContent(String content) {
+        this.report.setContent(content);
     }
 
     @Override
-    public void setGPS(boolean hasGPS) {
-        // Install a GPS.
+    public void setFooter(String footer) {
+        this.report.setFooter(footer);
     }
 
     /**
@@ -60,8 +60,8 @@ public class CarBuilder implements Builder {
      *  of the previous result.
      * @return
      */
-    public Car getProduct() {
-        Car product = this.car;
+    public Report getProduct() {
+        Report product = this.report;
         this.reset();
         return product;
     }

@@ -1,4 +1,4 @@
-package com.laiszig.builder.carBuilder;
+package com.laiszig.builder.reportBuilder;
 
 /**
  * The client code creates a builder object, passes it to the
@@ -7,19 +7,16 @@ package com.laiszig.builder.carBuilder;
  */
 public class Application {
 
-    public void makeCar() {
+    public void generateReport() {
         Director director = new Director();
 
-        CarBuilder carBuilder = new CarBuilder();
-        director.constructSportsCar(carBuilder);
-        Car car = carBuilder.getProduct();
+        ReportBuilder reportBuilder = new ReportBuilder();
+        director.constructMonthlyReport(reportBuilder);
+        Report report = reportBuilder.getProduct();
 
-        CarManualBuilder manualBuilder = new CarManualBuilder();
-        director.constructSportsCar(manualBuilder);
-        Manual manual = manualBuilder.getProduct();
+        // You can similarly construct different types of reports
         // The final product is often retrieved from a builder
         // object since the director isn't aware of and not
         // dependent on concrete builders and products.
-
     }
 }
