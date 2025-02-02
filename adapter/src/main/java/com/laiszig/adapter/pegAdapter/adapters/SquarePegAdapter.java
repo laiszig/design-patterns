@@ -1,7 +1,7 @@
-package com.laiszig.adapter.adapters;
+package com.laiszig.adapter.pegAdapter.adapters;
 
-import com.laiszig.adapter.round.RoundPeg;
-import com.laiszig.adapter.square.SquarePeg;
+import com.laiszig.adapter.pegAdapter.round.RoundPeg;
+import com.laiszig.adapter.pegAdapter.square.SquarePeg;
 
 /**
  * Adapter allows fitting square pegs into round holes.

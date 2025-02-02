@@ -1,9 +1,9 @@
-package com.laiszig.adapter;
+package com.laiszig.adapter.pegAdapter;
 
-import com.laiszig.adapter.adapters.SquarePegAdapter;
-import com.laiszig.adapter.round.RoundHole;
-import com.laiszig.adapter.round.RoundPeg;
-import com.laiszig.adapter.square.SquarePeg;
+import com.laiszig.adapter.pegAdapter.adapters.SquarePegAdapter;
+import com.laiszig.adapter.pegAdapter.round.RoundHole;
+import com.laiszig.adapter.pegAdapter.round.RoundPeg;
+import com.laiszig.adapter.pegAdapter.square.SquarePeg;
 
 /**
  * Client code

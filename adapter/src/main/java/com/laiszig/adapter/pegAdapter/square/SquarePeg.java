@@ -1,4 +1,4 @@
-package com.laiszig.adapter.square;
+package com.laiszig.adapter.pegAdapter.square;
 
 /**
  * SquarePegs are not compatible with RoundHoles (they were implemented by

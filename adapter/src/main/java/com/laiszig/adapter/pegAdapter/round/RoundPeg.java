@@ -1,4 +1,4 @@
-package com.laiszig.adapter.round;
+package com.laiszig.adapter.pegAdapter.round;
 
 /**
  * Round pegs are compatible with round holes
