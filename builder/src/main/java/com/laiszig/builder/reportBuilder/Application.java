@@ -2,7 +2,7 @@ package com.laiszig.builder.reportBuilder;
 
 /**
  * The client code creates a builder object, passes it to the
- * director and then initiates the construction process. The end
+ * director and then initiates the construction Play. The end
  * result is retrieved from the builder object.
  */
 public class Application {

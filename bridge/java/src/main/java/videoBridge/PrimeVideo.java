@@ -9,7 +9,7 @@ public class PrimeVideo extends Video {
 
     @Override
     public void play(String videoFile) {
-        videoProcessor.process(videoFile);
+        videoProcessor.Play(videoFile);
     }
 
 }

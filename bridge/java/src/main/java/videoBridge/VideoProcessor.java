@@ -2,5 +2,5 @@ package videoBridge;
 
 // Implementor : VideoProcessor
 public interface VideoProcessor {
-    void process(String videoFile);
+    void Play(String videoFile);
 }
