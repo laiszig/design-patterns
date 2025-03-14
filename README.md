@@ -1,6 +1,6 @@
-# ✨ Design Patterns in Java ✨
+# ✨ Design Patterns in Java and Go ✨
 
-Welcome to the **Design Patterns** repository! This project is a comprehensive guide to mastering design patterns using Java, adhering to **SOLID Principles** and covering all **23 design patterns** across **Creational**, **Structural**, and **Behavioral** categories.
+Welcome to the **Design Patterns** repository! This project is a comprehensive guide to mastering design patterns using Java and Go, adhering to **SOLID Principles** and covering all **23 design patterns** across **Creational**, **Structural**, and **Behavioral** categories.
 
  **[Design Patterns](https://laiszig.github.io/guide/)** guide section for in-depth insights.
 
@@ -8,7 +8,7 @@ Welcome to the **Design Patterns** repository! This project is a comprehensive g
 
 ## 🔬 About This Repository
 
-- **Language**: Java
+- **Languages**: Java, Go
 - **SOLID**: All five SOLID Principles
 - **Design Patterns**: All 23 design patterns categorized into Creational, Structural, and Behavioral patterns.
 - **Goal**: To provide a clear and practical reference for understanding and implementing design patterns effectively.
